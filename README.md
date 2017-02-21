@@ -22,7 +22,7 @@ The blockchain ensures that all users can see each others' property.  This way a
 The p2p network ensures that some data can always be communicated between users of a website without the interference of the server.  As a simple example, this would be used for users to chat and to announce their locations in the realm so that the server cannot completely censor them.
 
 ##How to Prevent Heinous Avatars in Kid Friendly Spaces
-Each website can, if it wishes, have complete control over all assets displayed in the VR client.  While many websites would benefit from allowing user-defined assets, this is completely option.
+Each website can, if it wishes, have complete control over all assets displayed in the VR client.  While many websites would benefit from allowing user-defined assets, this is completely optional.
 
 ##MVP
 The MVP will not need any graphics.  At the least, it would allow the creation of a whisper channel and p2p network for any website.  Thus, the MVP will enable meeting other people through browsing the web.
