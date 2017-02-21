@@ -4,4 +4,22 @@
 The goal of the Etheric Metaverse project is to create a 3D MMO layer of the WWW.  Some URLs that users navigate to will allow users to enter 3D worlds where they can bring their avatars and virtual property, which can be traded.  Smart-Contracts can also be signed to change the rules of the game.
 
 ##How
-We will use the Ethereum blockchain to keep track of ownership of property.  Then, associated with each URL registered with the ENS, we can ...
+
+###The Basic Idea
+The Ethereum blockchain keeps track of ownership of property.  The ENS keeps track of domain names as well as the location of servers.  We associate a whisper channel with each domain name (sub-channels will need to be designed as well), which is where the users present at a website can meet each other.  The users use the whisper channel to form a p2p network for higher bandwidth communication.  Users can also communicate with the server.  Any assets that need to be available to all users, such as the assets associated with user (as opposed to server) property, will be stored in decentralized storage such as swarm.
+
+###Adding VR
+Each server can host a 3D realm and enforce how the users can navigate through it (for instance, no teleporting).
+
+To keep data at a minimum, a standard language similar to HTML may be needed for specifying rooms and layouts of objects.  We can then style the 3D scene with an extension of CSS and modify the 3D version of the DOM with javascript or webasm.
+
+To ensure that the servers cannot censor users' property, the VR client should be standard across all websites.
+
+###Why the blockchain?
+The blockchain ensures that all users can see each others' property.  This way a server cannot decide which property to honor or revoke.
+
+###Why the p2p network for users?
+The p2p network ensures that some data can always be communicated between users of a website without the interference of the server.  As a simple example, this would be used for users to chat and to announce their locations in the realm so that the server cannot completely censor them.
+
+##How to Prevent Heinous Avatars in Kid Friendly Spaces
+Each website can, if it wishes, have complete control over all assets displayed in the VR client.  While many websites would benefit from allowing user-defined assets, this is completely option.
