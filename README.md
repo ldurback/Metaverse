@@ -6,12 +6,12 @@ The goal of the Etheric Metaverse project is to create a 3D MMO layer of the WWW
 ##How
 
 ###The Basic Idea
-The Ethereum blockchain keeps track of ownership of property.  We associate a whisper channel with each website domain name (sub-channels will need to be designed as well), which is where the users present at a website can meet each other.  The users use the whisper channel to form a p2p network for higher bandwidth communication.  Users can also communicate with the server.  Any assets that need to be available to all users, such as the assets associated with user (as opposed to server) property, will be stored in decentralized storage such as swarm.
+The Ethereum blockchain keeps track of ownership of property.  We associate a whisper (Ethereum Whisper) channel with each website domain name (sub-channels will need to be designed as well), which is where the users present at a website can meet each other.  The users use the whisper channel to form a p2p network for higher bandwidth communication.  Whisper is private but has very low bandwidth, so we will only use it as a signaling service for the p2p networks and for private communications between users.  Users can also communicate with the server.  Any assets that need to be available to all users, such as the assets associated with user (as opposed to server) property, will be stored in decentralized storage such as swarm.
 
 ###Adding VR
 Each server can host a 3D realm and enforce how the users can navigate through it (for instance, no teleporting).
 
-To keep data at a minimum, a standard language similar to HTML may be needed for specifying rooms and layouts of objects.  We can then style the 3D scene with an extension of CSS and modify the 3D version of the DOM with javascript or webasm.
+To keep data at a minimum, a standard language similar to HTML may be needed for specifying rooms and layouts of objects.  We can then style the 3D scene with an extension of CSS and modify the 3D version of the DOM with javascript or webasm.  We should be as friendly as possible with previous work in this direction.
 
 To ensure that the servers cannot censor users' property, the VR client should be standard across all websites.
 
@@ -32,3 +32,7 @@ Astral Cat will be low level portion of the Metaverse suite that joins a website
 
 #EthericVR
 EthericVR will be the VR client and anything else needed to get the VR world working
+
+---
+
+(1) https://github.com/ethereum/wiki/wiki/Whisper
