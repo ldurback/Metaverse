@@ -6,7 +6,7 @@ The goal of the Etheric Metaverse project is to create a 3D MMO layer of the WWW
 ##How
 
 ###The Basic Idea
-The Ethereum blockchain keeps track of ownership of property.  The ENS keeps track of domain names as well as the location of servers.  We associate a whisper channel with each domain name (sub-channels will need to be designed as well), which is where the users present at a website can meet each other.  The users use the whisper channel to form a p2p network for higher bandwidth communication.  Users can also communicate with the server.  Any assets that need to be available to all users, such as the assets associated with user (as opposed to server) property, will be stored in decentralized storage such as swarm.
+The Ethereum blockchain keeps track of ownership of property.  We associate a whisper channel with each website domain name (sub-channels will need to be designed as well), which is where the users present at a website can meet each other.  The users use the whisper channel to form a p2p network for higher bandwidth communication.  Users can also communicate with the server.  Any assets that need to be available to all users, such as the assets associated with user (as opposed to server) property, will be stored in decentralized storage such as swarm.
 
 ###Adding VR
 Each server can host a 3D realm and enforce how the users can navigate through it (for instance, no teleporting).
@@ -23,3 +23,6 @@ The p2p network ensures that some data can always be communicated between users 
 
 ##How to Prevent Heinous Avatars in Kid Friendly Spaces
 Each website can, if it wishes, have complete control over all assets displayed in the VR client.  While many websites would benefit from allowing user-defined assets, this is completely option.
+
+##MVP
+The MVP will not need any graphics.  At the least, it would allow the creation of a whisper channel and p2p network for any website.
