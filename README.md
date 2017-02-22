@@ -30,9 +30,6 @@ Astrum will be low level portion of the Metaverse suite that allows forming and 
 #EthericVR
 EthericVR will be the VR client and anything else needed to get the VR web to work.
 
-#Development 
-Astrum needs to be developed first because EthericVR cannot function fully without it.
-
 ---
 
 (1) https://github.com/ethereum/wiki/wiki/Whisper
