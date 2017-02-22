@@ -16,11 +16,19 @@ EthericVR will be the VR web browser and any client side programming languages t
 ##Astrum
 The Ethereum blockchain keeps track of ownership of property.  We associate a whisper (1) channel with each URL, which is where the users present at a URL can meet each other.  The users use the whisper channel to form a p2p network for higher bandwidth communication.  Whisper is private but has very low bandwidth, so we will only use it as a signaling service for the p2p networks and for private communications between users.  Users can also communicate with the website's server.  Any assets that need to be available to all users, such as the assets associated with user (as opposed to server) property, will be stored in decentralized storage such as swarm.
 
+---
+
 ##EthericVR
 Each server can host a 3D realm and enforce how the users can navigate through it (for instance, no teleporting).
 
 To keep data at a minimum, a standard language similar to HTML may be needed for specifying rooms and layouts of objects.  We can then style the 3D scene with an extension of CSS and modify the 3D version of the DOM with javascript or webasm.  We should be as friendly as possible with previous work in this direction.
 
+Etheric VR will also display data from Astrum in either a raw or filtered mode.
+
+###Filtered Mode and Censored Mode
+Some of the data flowing through p2p communications will be unsafe for viewing by the user.  Additionally, the designers of each website may want to stylize data that flows through the p2p network.
+
+Censoring and filtering of p2p communications can be turned on or off at the client side, and it is something a website may offer.  To censor the p2p communications, the users must send the website their p2p communications and the website must send back censored versions.  To filter p2p communications, the website (or another party) must create a filter which the client can apply.
 ---
 
 ##Why the blockchain?
@@ -29,8 +37,6 @@ The blockchain ensures that all users can see each others' property and the user
 ##Why the whisper channel and p2p network associated with each website?
 The p2p communication channels ensure that data can always be communicated between users of a website without the interference of the server.  As a simple example, this could be used for users to chat and to announce their locations in the realm.
 
-##Filtered Mode
-Some of the data flowing through p2p communications will be unsafe for viewing by the user.  Additionally, the designers of the website may want to stylize data that flows through the p2p network.  To achieve this, a website only needs to listen to the public p2p messages and then broadcast officiated revisions of the messages.  This mode can be toggled on the client side.
 
 ---
 
