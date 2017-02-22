@@ -24,14 +24,11 @@ The p2p network ensures that some data can always be communicated between users 
 ##How to Prevent Heinous Avatars in Kid Friendly Spaces
 Each website can, if it wishes, have complete control over all assets displayed in the VR client.  While many websites would benefit from allowing user-defined assets, this is completely optional.
 
-##MVP
-The MVP will not need any graphics.  At the least, it would allow the creation of a whisper channel and p2p network for any website.  Thus, the MVP will enable meeting other people through browsing the web.
-
-#Astral Cat
-Astral Cat will be low level portion of the Metaverse suite that joins a website's whisper channel and p2p network, enabling meeting other people.
+#Astrum
+Astrum will be low level portion of the Metaverse suite that allows forming and joining a website's whisper channel and p2p network, enabling meeting other people while browsing the web.
 
 #EthericVR
-EthericVR will be the VR client and anything else needed to get the VR world working
+EthericVR will be the VR client and anything else needed to get the VR web to work.
 
 ---
 
