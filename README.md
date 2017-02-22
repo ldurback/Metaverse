@@ -30,11 +30,11 @@ To ensure that the servers cannot censor users' property, the VR client should b
 ##Why the blockchain?
 The blockchain ensures that all users can see each others' property.  This way a server cannot decide which property to honor or revoke.
 
-##Why the p2p network for users?
-The p2p network ensures that some data can always be communicated between users of a website without the interference of the server.  As a simple example, this would be used for users to chat and to announce their locations in the realm so that the server cannot completely censor them.
+##Why the whisper channel and p2p network associated with each website?
+The p2p communication channels ensure that data can always be communicated between users of a website without the interference of the server.  As a simple example, this could be used for users to chat and to announce their locations in the realm, for instance.
 
-##How to Prevent Heinous Avatars in Kid Friendly Spaces
-Each website can, if it wishes, have complete control over all assets displayed in the VR client.  While many websites would benefit from allowing user-defined assets, this is completely optional.
+#Filtered Mode (How to prevent the VR client from displaying heinous data)
+Some of the data flowing through a p2p network will be unsafe for viewing by the user.  Additionally, the designers of the website may want to stylize data that flows through the p2p network.  To achieve this, a website only needs to listen to the public p2p messages and then broadcast officiated revisions of the messages.  This mode can be toggled on the client side.
 
 ---
 
