@@ -29,6 +29,7 @@ Etheric VR will also display data from Astrum in either a raw or filtered mode.
 Some of the data flowing through p2p communications will be unsafe for viewing by the user.  Additionally, the designers of each website may want to stylize data that flows through the p2p network.
 
 Censoring and filtering of p2p communications can be turned on or off at the client side, and it is something a website may offer.  To censor the p2p communications, the users must send the website their p2p communications and the website must send back censored versions.  To filter p2p communications, the website (or another party) must create a filter which the client can apply.
+
 ---
 
 ##Why the blockchain?
